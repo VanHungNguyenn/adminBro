@@ -1,12 +1,21 @@
 {
-  "name": "adminbro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "adminbro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --inspect index"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@admin-bro/express": "^3.1.0",
+		"@admin-bro/mongoose": "^1.1.0",
+		"@rollup/plugin-replace": "^3.0.0",
+		"admin-bro": "^4.0.1",
+		"nodemon": "^2.0.15",
+		"tslib": "^2.3.1"
+	}
 }
